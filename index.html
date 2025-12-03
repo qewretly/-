@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Владислав Морозов — Обращение к Riot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Владислав Морозов — 22 года</h1>
+        <p>Игрок, стратег, борец за справедливость</p>
+        <p>Забанен в <em>League of Legends</em> 3-4 года назад. Считаю бан несправедливым.</p>
+    </header>
+
+    <nav>
+        <a href="#about" class="nav-btn">Обо мне</a>
+        <a href="#chess" class="nav-btn">Шахматы</a>
+        <a href="#gallery" class="nav-btn">Галерея</a>
+        <a href="#appeals" class="nav-btn">Апелляции</a>
+        <a href="#contact" class="nav-btn">Связаться</a>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>Кто я</h2>
+        <p>Привет! Меня зовут Владислав Морозов. Мне 22 года. Я — заядлый игрок в <strong>League of Legends</strong> и <strong>шахматы</strong>. У меня высокий ранг в LoL, и я действительно люблю эту игру. Но 3-4 года назад меня забанили за поведение в чате. Я считаю, что это был несправедливый бан, и с тех пор подаю апелляции — без результата.</p>
+        <p>Я не просто игрок — я стратег, люблю анализировать игры, ищу ошибки, совершенствую навыки. Я также играю в шахматы и могу с уверенностью сказать, что это моя вторая большая страсть.</p>
+    </section>
+
+    <section id="chess" class="section">
+        <h2>Шахматы</h2>
+        <p>Шахматы — это не просто игра, это образ мышления. Я играю с 10 лет, участвовал в турнирах, знаю дебюты, тактику, стратегию. В шахматах, как и в LoL, важна концентрация, умение предвидеть действия противника и принимать правильные решения под давлением.</p>
+        <button class="chess-btn" id="chessBtn">Показать мой рейтинг</button>
+        <p id="chessRating" class="hidden">Мой текущий рейтинг: 1850 (на 04.12.2025)</p>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2>Галерея</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="фото1.jpg" alt="Фото 1" class="gallery-img">
+                <div class="caption">Момент размышлений перед игрой. На столе — стратегия, а не просто крестики-нолики.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="фото2.jpg" alt="Фото 2" class="gallery-img">
+                <div class="caption">Красный джемпер — мой талисман. Здесь я только что выпил молока... и теперь много сру поносом.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="фото3.jpg" alt="Фото 3" class="gallery-img">
+                <div class="caption">Я со своим любимым персонажем из аниме "Евангелион". Мы — одна команда. Он знает, как я играю.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="фото4.jpg" alt="Фото 4" class="gallery-img">
+                <div class="caption">С друзьями в машине. Мы — команда. Смеёмся, спорим, готовимся к новым вызовам — в LoL или в жизни.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="фото5.jpg" alt="Фото 5" class="gallery-img">
+                <div class="caption">Начинаю лысеть. Это не от стресса, а от того, что я слишком много думаю о LoL и шахматах.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="фото6.jpg" alt="Фото 6" class="gallery-img">
+                <div class="caption">На прогулке вечером. Иногда нужно отойти от экрана — чтобы вернуться сильнее.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="фото7.jpg" alt="Фото 7" class="gallery-img">
+                <div class="caption">Люблю дакимакуры. Особенно когда они напоминают мне о моих победах и мечтах.</div>
+            </div>
+            <div class="gallery-item">
+                <img src="фотофото.jpg" alt="Фото с другом" class="gallery-img">
+                <div class="caption">С моим лучшим другом. Он создал мне этот сайт. Мы — команда. Без него я бы не стал тем, кто я есть.</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="appeals" class="section">
+        <h2>Мои апелляции</h2>
+        <div class="appeal-list">
+            <div class="appeal-item">
+                <h3>2022</h3>
+                <p>Ответ: Отклонено</p>
+            </div>
+            <div class="appeal-item">
+                <h3>2023</h3>
+                <p>Ответ: Отклонено</p>
+            </div>
+            <div class="appeal-item">
+                <h3>2024</h3>
+                <p>Ответ: Отклонено</p>
+            </div>
+            <div class="appeal-item">
+                <h3>2025</h3>
+                <p>Ожидание...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Отправить апелляцию</h2>
+        <form id="appealForm">
+            <label for="message">Твоё сообщение Riot:</label>
+            <textarea id="message" placeholder="Напиши, почему ты считаешь, что бан несправедлив..." required></textarea>
+            <button type="submit">Отправить апелляцию</button>
+        </form>
+        <div id="form-response"></div>
+    </section>
+
+    <section class="years-counter">
+        <h2>С тех пор прошло</h2>
+        <div id="counter">0 лет</div>
+    </section>
+
+    <footer>
+        <p>Сайт создан в поддержку справедливости. Владислав Морозов, 2025.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
